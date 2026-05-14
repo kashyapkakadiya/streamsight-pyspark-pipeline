@@ -1,0 +1,15 @@
+services:
+  spark:
+    image: apache/spark:3.5.1
+    container_name: spotify_spark
+    user: root
+    environment:
+      - SPARK_NO_DAEMONIZE=true
+    ports:
+      - "4040:4040"
+    volumes:
+      - ./data:/opt/spark/data
+      - ./src:/opt/spark/src
+      - ./output:/opt/spark/output
+    working_dir: /opt/spark
+    command: bash -c "pip install pandas && /opt/spark/bin/spark-submit --master local[*] /opt/spark/src/pipeline.py"
