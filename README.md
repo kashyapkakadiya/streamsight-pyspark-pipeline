@@ -95,8 +95,8 @@ for single-file output per analytics table.
 
 ```bash
 # 1. Clone the repo
-git clone https://github.com/kashyapkakadiya/spotify-pyspark-pipeline.git
-cd spotify-pyspark-pipeline
+git clone https://github.com/kashyapkakadiya/streamsight-pyspark-pipeline.git
+cd streamsight-pyspark-pipeline
 
 # 2. Add your dataset
 # Download from Kaggle and place at:
