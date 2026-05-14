@@ -37,11 +37,17 @@ CSV File (4,600 records)
 ## Project Structure
 
 spotify-pyspark/
+
 ├── docker-compose.yml       # Spark container
+
 ├── src/
+
 │   └── pipeline.py          # full PySpark pipeline
+
 ├── data/                    # CSV dataset (git-ignored)
+
 ├── output/                  # results written here (git-ignored)
+
 └── .gitignore
 
 ## Pipeline Stages
