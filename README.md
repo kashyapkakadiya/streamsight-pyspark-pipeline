@@ -15,14 +15,23 @@ fully containerized with Docker.
 ## Architecture
 
 CSV File (4,600 records)
+
 ↓
+
 [Extract]   spark.read.csv → raw DataFrame
+
 ↓
+
 [Transform] normalize columns → deduplicate → cast numerics
+
 → parse dates → fill nulls → drop invalid rows
+
 ↓
+
 [Analytics] top songs · top artists · yearly trends + YoY growth
+
 ↓
+
 [Output]    CSV files → /output/
 
 ## Project Structure
