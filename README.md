@@ -116,20 +116,35 @@ docker-compose down
 ## Sample Output
 
 [ANALYTICS] Top 10 Most Streamed Songs:
+
 +------------------------+-------------+---------------+
+
 |track                   |artist       |spotify_streams|
+
 +------------------------+-------------+---------------+
+
 |Blinding Lights         |The Weeknd   |4281468720     |
+
 |Shape of You            |Ed Sheeran   |3909458734     |
+
 |Someone You Loved       |Lewis Capaldi|3427498835     |
+
 ...
+
 [ANALYTICS] Yearly Trends (sample):
+
 +------------+------------+--------------+-------------+--------------+
+
 |release_year|total_tracks|unique_artists|total_streams|yoy_growth_pct|
+
 +------------+------------+--------------+-------------+--------------+
+
 |2023        |1158        |750           |225245837239 |7.56          |
+
 |2022        |693         |491           |209409259280 |10.44         |
+
 |2011        |51          |37            |54241058712  |107.63        |
+
 ...
 
 ## Dataset
